@@ -37,7 +37,7 @@ Next up is logging in and changing the password.
 
 2. (only if you get an error with the above because you've previously accessed a pi or something else at this ip address) Delete the existing ssh key by typing ```ssh-keygen -R 192.168.0.xxx``` with the relevant ip address. Now try step 1 again.
 
-3. Type ```sudo raspi-config``` to access the configurations menu. Hit enter on the first option to change your password, type in ```Jaguars14``` followed by enter twice, then use the down then right arrows to navigate to ```finish``` in the menu, and hit enter to exit. To log in in the future, repeat step one using this new password.
+3. Type ```sudo raspi-config``` to access the configurations menu. Hit enter on the first option to change your password, type in ```YourPassword``` followed by enter twice, then use the down then right arrows to navigate to ```finish``` in the menu, and hit enter to exit. To log in in the future, repeat step one using this new password.
 
 ## Next we set up the audio
 Skip these steps if you're not using the audio-injector hat to record audio.
